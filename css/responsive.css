@@ -1,0 +1,42 @@
+/*-------------Written By Suman Kumar * sumancsnit@gmail.com --------------------*/
+/*-- Desktop--*/
+/*--Tablets --*/
+@media (min-width: 641px) and (max-width: 1024px) {
+/* Mobile menu */
+.content-box-inner h6 {
+padding: 5px;
+font-size: 18px;
+}
+.content-box-inner p {
+padding: 5px;
+font-size: 16px;
+}
+}
+/*-- Mobile--*/
+@media (max-width: 640px) {
+#smnHeading {
+height: 5%;    
+}
+.content-box-inner {
+margin: 0;
+padding: 5px;
+}
+.content-box-inner h6 {
+padding: 5px;
+font-size: 18px;
+}
+.content-box-inner p {
+padding: 5px;
+font-size: 16px;
+}
+#smnTab .nav>li>a:hover,
+#smnTab .nav>li>a:focus {
+background-color: #f5b6b7;
+color: #fff;
+}
+}
+@media only screen and (max-width : 768px) {
+.smn-social {
+display: none;  /* hide icons */
+}
+}

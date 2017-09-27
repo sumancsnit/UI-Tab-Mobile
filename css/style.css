@@ -1,0 +1,146 @@
+/*......................................... Written By - Suman Kumar * sumancsnit@gmail.com ---
+Values
+Font          : azo-sans           
+Colors:
+Sunset Orange : #FF4A4F (Background)
+Mandys Pink   : #F5B6B7 (Hover - On Mobile Only)
+Diesel        : #080000 (Heading)
+Mine Shaft    : #393939 (Bar)
+Gray          : #8F8F8F (Nav-menu)
+Mine Shaft    : #332D2D (Menu-item)
+---------- FONT ----------------------*/
+@font-face {
+font-family: azo-sans;
+font-weight: 400;
+src: url("font/Rui Abreu - AzoSans-Regular.otf") format("opentype");
+}
+@font-face {
+font-family: azo-sans;
+font-weight: 500;
+src: url("font/Rui Abreu - AzoSans-Medium.otf") format("opentype");
+}
+@font-face {
+font-family: azo-sans;
+font-weight: 700;
+src: url("font/Rui Abreu - AzoSans-Bold.otf") format("opentype");
+}
+/*...............generic................*/
+html,
+body {
+font-family: 'azo-sans', sans-serif;
+height: 100%;
+}
+h2 {
+color: #080000;
+font-weight: 700;
+}
+p {
+color: #fff;
+}
+h6 {
+color: #fff;
+}
+/*---------- smn - heading ----------------------*/
+#smnHeading {
+height: 18%;
+padding-top: 35px;
+}
+#smn-heading h4 {
+color: #8F8F8F;
+}
+/*................NAVBAR..........................*/
+.navbar-toggle {
+background-color: rgba(0, 0, 0, 0);
+border: 0px solid #fff;
+border-radius: 0;
+}
+.navbar {
+margin-bottom: 0;
+border: 0;
+}
+.icon-bar {
+background-color: #FF4A4F !important;
+}
+.navbar-toggle {
+margin: auto;
+vertical-align: middle;
+}
+.nav-pills>li>a:hover{
+color: #FF4A4F;
+background-color: #fff;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus{
+background-color: #FF4A4F;
+}
+.nav-pills>li>a {
+border-radius: 0;
+color: #8F8F8F;
+height: 54px;
+font-size: 16px;
+position: relative;
+padding-top: 18px;
+}
+#smnTab {
+}
+/*................Content..........................*/
+#smn-content {
+height: 100%;
+}
+.tab-pane {
+background-color: #FF4A4F;
+padding: 5px 15px;
+height: 100%;
+;
+}
+.content-box-inner {
+margin: 40px 135px 25px 100px;
+}
+.content-box-inner h6 {
+padding: 60px 40px 0 40px;
+font-size: 20px;
+}
+.content-box-inner p {
+padding: 0 40px;
+font-size: 18px;
+}
+/*----------Social List......................*/
+.social-list {
+padding-left: 30px;
+}
+.social-list li {
+list-style: none;
+display: inline-block;
+}
+fa {
+color: #fff;
+}
+.fa-circle {
+color: #fff;
+}
+.fa-stack-1x {
+color: #FF4A4F;
+}
+.smn-social h6 {
+font-size: 16px;
+}
+.social-icon i:hover {
+color: #1E3888;
+}
+/*----------For Hover......................*/
+.hover-icon {
+font-size: 32px;
+}
+.hover-icon .fa-circle-thin {
+color: #fff;
+}
+.hover-icon .circle {
+background: #fff;
+border-radius: 50%;
+}
+.fa-refresh:hover {
+color: #fff;
+}
+.hover-icon .circle:hover {
+background: #FF4A4F;
+}
