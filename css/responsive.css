@@ -1,42 +1,100 @@
 /*-------------Written By Suman Kumar * sumancsnit@gmail.com --------------------*/
-/*-- Desktop--*/
-/*--Tablets --*/
+
 @media (min-width: 641px) and (max-width: 1024px) {
-/* Mobile menu */
-.content-box-inner h6 {
-padding: 5px;
-font-size: 18px;
+    /* Tab*/
+    #smn-content {
+        display: inline-block;
+        width: 82%;
+        margin-left: -1px;
+    }
+    .navbar {
+        display: inline-block;
+        width: 17%;
+        vertical-align: top;
+    }
+    .nav-justified>li {
+        display: block !important;
+        width: 100%;
+    }
+    #smnTab {
+        padding-right: 0 !important;
+    }
+    .content-heading-display {
+        display: none;
+    }
+    #smnHeading {
+        margin-bottom: 50px;
+    }
+    #smnHeading {
+        height: 5%;
+    }
+    .tab-pane {
+        padding: 0px!important;
+    }
+    .content-box-inner {
+        margin: 0;
+        padding: 25px 5px;
+    }
+    .content-box-inner h6 {
+        padding: 5px;
+        font-size: 18px;
+    }
+    .content-box-inner p {
+        padding: 5px;
+        font-size: 16px;
+    }
 }
-.content-box-inner p {
-padding: 5px;
-font-size: 16px;
-}
-}
+
+
 /*-- Mobile--*/
+
 @media (max-width: 640px) {
-#smnHeading {
-height: 5%;    
+    #smnHeading {
+        height: 5%;
+    }
+    .tab-pane {
+        padding: 0px!important;
+    }
+    .content-box-inner {
+        margin: 0;
+        padding: 5px;
+    }
+    .content-box-inner h6 {
+        padding: 5px;
+        font-size: 18px;
+    }
+    .content-box-inner p {
+        padding: 5px;
+        font-size: 16px;
+    }
+    #smnTab .nav>li>a:hover,
+    #smnTab .nav>li>a:focus {
+        background-color: #f5b6b7;
+        color: #fff;
+    }
+    .content-heading {
+        height: 50px;
+        vertical-align: middle;
+        line-height: 4;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .content-heading-display {
+        display: block;
+    }
 }
-.content-box-inner {
-margin: 0;
-padding: 5px;
+
+/* hide icons */
+@media (max-width: 768px) {
+    .smn-social {
+        display: none;
+    }
 }
-.content-box-inner h6 {
-padding: 5px;
-font-size: 18px;
-}
-.content-box-inner p {
-padding: 5px;
-font-size: 16px;
-}
-#smnTab .nav>li>a:hover,
-#smnTab .nav>li>a:focus {
-background-color: #f5b6b7;
-color: #fff;
-}
-}
-@media only screen and (max-width : 768px) {
-.smn-social {
-display: none;  /* hide icons */
-}
+
+/* Large screen */
+@media (min-width: 1024px) {
+    .content-heading-display {
+        display: none;
+    }
 }

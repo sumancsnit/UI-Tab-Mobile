@@ -72,6 +72,7 @@ background-color: #fff;
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus{
 background-color: #FF4A4F;
+margin-right: -3px;
 }
 .nav-pills>li>a {
 border-radius: 0;
@@ -81,8 +82,13 @@ font-size: 16px;
 position: relative;
 padding-top: 18px;
 }
-#smnTab {
+
+.collapsed-color{
+    background-color: black !important;
 }
+
+
+
 /*................Content..........................*/
 #smn-content {
 height: 100%;
